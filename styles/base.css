@@ -139,6 +139,7 @@ img {
 #profileCard1 {
     width: 30vw;
     height: auto;
+    max-height: fit-content;
 }
 
 #subtitleCard1 {
