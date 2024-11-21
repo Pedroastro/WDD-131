@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto;
+    height: 100vh;
+    background-color: #00953E;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        "card1 card2";
+    grid-template-columns: 3fr 1fr;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background-color: white;
+    padding: 10px 0 0 0;
+}
+
+h1 {
+    color: black;
+    padding: 10px 20px;
+}
+
+img {
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2C2182;
+    height: 7vh;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.nav li {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav li:hover {
+    border: 2px solid white;
+}
+
+.nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 5vh 1vw;
+}
+
+.cardTitle {
+    text-align: center;
+    justify-content: start;
+    padding: 1vw;
+    background-color: #FFCC00;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #000000;
+}
+
+#card1 {
+    grid-area: card1;
+    display: grid;
+    grid-template-areas: 
+        "title"
+        "profile1"
+        "subtitle"
+        "profile2";
+}
+
+#profile1 {
+    grid-area: profile1;
+    display: flex;
+    margin: 2%;
+}
+
+#profile2 {
+    grid-area: profile2;
+    display: flex;
+    margin: 2%;
+}
+
+#h2Card1 {
+    grid-area: title;
+}
+
+#bioCard1 {
+    align-content: center;
+    margin: 0 5%;
+}
+
+#profileCard1 {
+    width: 30vw;
+    max-height: fit-content;
+}
+
+#subtitleCard1 {
+    grid-area: subtitle;
+    text-align: center;
+    width: 100%;
+}
+
+hr {
+    width: 70%;
+    align-items: center;
+    justify-self: center;
+}
+
+#flag {
+    width: 20vw;
+    max-height: fit-content;
+}
+
+#flagCard1 {
+    text-align: center;
+}
+
+#textCard1 {
+    margin: 0 5%;
+    align-content: center;
+    justify-content: center;
+}
+
+#card2 {
+    grid-area: card2;
+}
+
+.sideNavigation {
+    text-align: left;
+    margin: 15%;
+}
+
+.sideNavigation li {
+    margin: 5%;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 3vh 0 8vh;
+}
