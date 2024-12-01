@@ -52,8 +52,6 @@ h1 {
 	content: "X";
 }
 
-/* The display flex on the nav is set to most instances but for mobile.
-Below we have the mobile case, but for bigger screens it is set to display flex (see temples-large.css)*/
 nav {
     display: flex;
     width: 100%;
