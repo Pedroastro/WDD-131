@@ -1,0 +1,65 @@
+@media screen and (min-width: 600px) {
+    #title.show {
+        display: inline;
+    }
+
+    #album {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: calc(3*(1.2vw + 0.4vh));
+        padding: 16px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        height: 100%;
+        display: flex;
+    }
+
+    li:hover {
+        border: 1px solid white;
+    }
+
+    #navigation.show {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        width: fit-content;
+    }
+
+    #navigation.show a {
+        font-size: 1.3rem;
+        margin: 1vh 1vw;
+        margin-top: 2vh;
+    }
+
+    nav a {
+        display: inline;
+    }
+
+    .show a {
+        display: inline;
+    }
+
+    #hamburger {
+		display: none;
+	}
+
+    #hamburger.show {
+        display: none;
+    }
+}

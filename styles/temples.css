@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+    background-color: #2C2182;
+    width: 100%;
+    height: 10vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-wrap: nowrap;
+    margin: 1vw;
+}
+
+#title.show {
+    display: none;
+}
+
+#hamburger {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+    color: white;
+}
+
+#hamburger::before {
+	content: "≡";
+}
+
+#hamburger.show::before {
+	content: "X";
+}
+
+/* The display flex on the nav is set to most instances but for mobile.
+Below we have the mobile case, but for bigger screens it is set to display flex (see temples-large.css)*/
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+nav a {
+    display: none;
+}
+
+#navigation.show {
+    background-color: #2C2182;
+}
+
+#navigation.show a {
+    font-size: 2rem;
+    width: fit-content;
+}
+
+#navigation.show li:hover {
+    border: 1px solid white;
+}
+
+.show a {
+	display: block;
+}
+
+h1, p, a {
+    color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 1vh 1vw;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    height: 100%;
+}
+
+a:visited {
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 10vh auto;
+}
+
+#album {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: calc(3*(1.2vw + 0.4vh));
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2, figure {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5vh;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: calc(1.2vw + 0.4vh);
+}
