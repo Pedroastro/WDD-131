@@ -4,24 +4,15 @@
     }
 
     #album {
-        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: calc(3*(1.2vw + 0.4vh));
-        padding: 16px;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 0 auto;
     }
 
     nav {
-        display: flex;
         flex-direction: row;
         width: fit-content;
     }
 
     ul {
-        display: flex;
         flex-direction: row;
     }
 
@@ -43,14 +34,10 @@
 
     #navigation.show a {
         font-size: 1.3rem;
-        margin: 1vh 1vw;
-        margin-top: 2vh;
     }
 
     nav a {
         display: inline;
-        height: 100%;
-        width: 100%;
     }
 
     .show a {
