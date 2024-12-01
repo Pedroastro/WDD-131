@@ -30,7 +30,7 @@
         display: flex;
     }
 
-    li:hover {
+    a:hover {
         border: 1px solid white;
     }
 
@@ -49,6 +49,8 @@
 
     nav a {
         display: inline;
+        height: 100%;
+        width: 100%;
     }
 
     .show a {
