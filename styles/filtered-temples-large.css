@@ -1,0 +1,54 @@
+@media screen and (min-width: 600px) {
+    #title.show {
+        display: inline;
+    }
+
+    #album {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    nav {
+        flex-direction: row;
+        width: fit-content;
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        height: 100%;
+        display: flex;
+    }
+
+    a:hover {
+        border: 1px solid white;
+    }
+
+    #navigation.show {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        width: fit-content;
+    }
+
+    #navigation.show a {
+        font-size: 1.3rem;
+    }
+
+    nav a {
+        display: inline;
+    }
+
+    .show a {
+        display: inline;
+    }
+
+    #hamburger {
+		display: none;
+	}
+
+    #hamburger.show {
+        display: none;
+    }
+}

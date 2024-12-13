@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+    background-color: #2C2182;
+    width: 100%;
+    height: 10vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-wrap: nowrap;
+    margin: 1vw;
+}
+
+figure {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    border: lightgray solid 1px; 
+}
+
+figure h3, figure p {
+    color: black;
+}
+
+figure h3 {
+    margin-bottom: 2vh;
+}
+
+.label {
+    color: #2C2182;
+    font-size: 0.9rem;
+}
+
+#title.show {
+    display: none;
+}
+
+#hamburger {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+    color: white;
+}
+
+#hamburger::before {
+	content: "≡";
+}
+
+#hamburger.show::before {
+	content: "X";
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+nav a {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+#navigation.show {
+    background-color: #2C2182;
+}
+
+#navigation.show a {
+    font-size: 2rem;
+    width: fit-content;
+}
+
+#navigation.show a:hover {
+    border: 1px solid white;
+}
+
+.show a {
+	display: block;
+}
+
+h1, p, a {
+    color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1vh 1vw;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    height: 100%;
+}
+
+a:visited {
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 10vh auto;
+}
+
+#album {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: calc(3*(1.2vw + 0.4vh));
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2, figure {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5vh;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 -1px 7px rgba(0, 0, 0, 0.8);
+    margin-top: 2vh;
+}
+
+footer {
+    text-align: center;
+    padding: calc(1.2vw + 0.4vh);
+}
