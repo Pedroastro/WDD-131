@@ -70,7 +70,7 @@ const temples = [
         imageHeight: 250,
     },
     {
-        templeName: "São Paulo Brazil Temple",
+        templeName: "São Paulo Brazil",
         location: "São Paulo, Brazil",
         dedicated: "1978, November, 2",
         area: 59246,
@@ -80,7 +80,7 @@ const temples = [
         imageHeight: 230,
     },
     {
-        templeName: "Rio de Janeiro Brazil Temple",
+        templeName: "Rio de Janeiro Brazil",
         location: "Rio de Janeiro, Brazil",
         dedicated: "2022, May, 8",
         area: 29966,
@@ -90,7 +90,7 @@ const temples = [
         imageHeight: 253,
     },
     {
-        templeName: "Kirtland Temple",
+        templeName: "Kirtland",
         location: "Kirtland, Ohio, United States",
         dedicated: "1836, March, 27",
         area: 15000,
