@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label, input, select, textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+}
+
+textarea {
+    padding: 0.5rem;
+}
+
+form {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #DAFFEF;
+}
+
+input, select {
+    padding: 0.5rem;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+.formField {
+    width: 100%;
+    margin-top: 2vh;
+}
+
+#checkBoxes label {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 1vh;
+}
+
+#radioButtons {
+    display: flex;
+    text-align: center;
+    column-gap: 1rem;
+}
+
+#radioButtons label {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='radio'] {
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: center;
+}
+
+input[type='checkbox'] {
+    display: inline;
+    width: 2rem;
+    height: 2em;
+    margin-right: 1vw;
+}
+
+input[type='submit'] {
+    width: 100%;
+    max-width: 400px;
+    margin: 2vh auto;
+    padding: 0.6rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #64B6AC;
+    width: 100%;
+    padding: 2rem;
+}
+
+main {
+    height: 100vh;
+}
+
+#review {
+    text-align: center;
+    margin: 1rem;
+}
