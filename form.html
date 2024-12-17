@@ -19,13 +19,13 @@
     <main>
         <form action="review.html" method="get">
             <div class="formField">
-                <label for="productName"> Product Name
+                <label for="productName"> Product Name <span class="required">*</span>
                     <select name="productName" id="productName" required aria-required="true">
                         <option value="" aria-disabled="true" disabled selected>Select a Product ...</option>
                     </select>
                 </label>
             </div>
-            <div class="formField">Overall Rating
+            <div class="formField">Overall Rating <span class="required">*</span>
                 <div id="radioButtons">
                     <label for="oneStar">★<input type="radio" name="rating" id="oneStar" required aria-required="true"></label>
                     <label for="twoStars">★★<input type="radio" name="rating" id="twoStars" required aria-required="true"></label>
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="formField">
-                <label for="dateOfInstallation">Date Of Installation<input type="date" id="dateOfInstallation" required aria-required="true"></label>
+                <label for="dateOfInstallation">Date Of Installation <span class="required">*</span><input type="date" id="dateOfInstallation" required aria-required="true"></label>
             </div>
             <div class="formField" id="checkBoxes">
                 <p>Which features did you find useful in the product?</p>
@@ -51,6 +51,7 @@
             <div class="formField">
                 <label for="userName">User Name<input type="text" id="userName" name="userName"></label>
             </div>
+            <p id="requiredLabel">Items with a <span class="required">*</span> are required.</p>
             <input type="submit" value="Post Review">
         </form>
     </main>

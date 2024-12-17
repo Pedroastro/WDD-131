@@ -65,7 +65,7 @@ input[type='checkbox'] {
 input[type='submit'] {
     width: 100%;
     max-width: 400px;
-    margin: 2vh auto;
+    margin: 1vh auto;
     padding: 0.6rem;
 }
 
@@ -91,4 +91,14 @@ main {
 #review {
     text-align: center;
     margin: 1rem;
+}
+
+.required {
+    color: #52489C;
+    font-weight: bolder;
+}
+
+#requiredLabel {
+    margin-top: 2vh;
+    font-size: small;
 }
