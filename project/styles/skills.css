@@ -1,0 +1,90 @@
+h2, h3 {
+    margin-bottom: 1rem;
+}
+
+main {
+    row-gap: 1rem;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+div > p {
+    max-width: 600px;
+}
+
+.responsive {
+    width: 70%;
+    height: auto;
+}
+
+.responsive img {
+    width: 100%;
+    height: auto;
+}
+
+.oneColumn {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.twoColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.threeColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+#responsiveButtons {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skillContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skillContainer:last-child {
+    margin-bottom: 0;
+}
+
+.skillContainer span {
+    margin-right: 0.5rem;
+}
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.star.filled {
+    background-color: #355834;
+}
+
+#userData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+}

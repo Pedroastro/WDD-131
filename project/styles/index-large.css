@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px) {
+    .aboutMe {
+        flex-direction: row;
+    }
+
+    .certificates {
+        grid-template-columns: 1fr 1fr;
+    }
+}

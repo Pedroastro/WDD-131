@@ -1,0 +1,76 @@
+#contactMeButtonLink {
+    color: white;
+    background-color: #14281D;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contactMeButtonLink:hover {
+    background-color: #355834;
+}
+
+#contactMeButtonLink:visited {
+    color: white;
+}
+
+.aboutMe {
+    width: 80%;
+    margin-top: 2vh;
+}
+
+.experience, .certificates {
+    width: 80%;
+    margin-top: 7vh;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutMe img {
+    max-width: 100%;
+    height: auto;
+}
+
+#aboutMeText {
+    margin-top: 1rem;
+}
+
+#aboutMeText h2, #aboutMeText p {
+    margin-bottom: 1rem;
+}
+
+#experience2 {
+    margin-top: 2rem;
+}
+
+.experience h2, .certificates h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.experience ul {
+    list-style: disc;
+    margin: 1rem;
+}
+
+.certificates {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5rem;
+    row-gap: 2rem;
+}
+
+.certificates img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}

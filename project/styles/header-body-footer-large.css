@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li:nth-child(even) {
+        border: white 2px solid;
+        border-left: none;
+        border-right: none;
+    }
+}

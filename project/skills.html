@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This page is part of the final project of course wdd131 at BYU Idaho. It is the home page of the final project plan, a portfolio for Pedro Castro.">
+        <meta name="author" content="Pedro Martins Silva de Castro">
+        <title>Pedro Castro's Portfolio | Pedro Castro | WDD 131</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/skills.css">
+        <link rel="stylesheet" href="styles/header-body-footer.css">
+        <link rel="stylesheet" href="styles/header-body-footer-large.css">
+        <script src="scripts/footer.js" defer></script>
+        <script src="scripts/skills.js" defer></script>
+    </head>
+<body>
+    <header>
+        <h1>Pedro Castro's Portfolio</h1>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Skills</h2>
+        <div>
+            <h3>Data Handling and Display</h3>
+            <p>This section demonstrates my skills in data handling and display. Below is a star rating representation of my proficiency in various technologies.</p>
+            <div id="dataDisplay"></div>
+        </div>
+        <div>
+            <h3>User Data Handling</h3>
+            <p>This section demonstrates my ability to handle user data. You can add or subtract from the counter, and the value is stored in local storage to persist across page reloads.</p>
+            <div id="userData">
+                <span id="counter">0</span>
+                <div>
+                    <button id="addData">Add One</button>
+                    <button id="removeData">Subtract One</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Responsive Design</h3>
+            <p>This section demonstrates my skills in responsive design. Click the buttons below to change the arrangement of the rectangles, showcasing different layout configurations.</p>
+            <div id="responsiveButtons">
+                <button id='oneColumn'>One Column</button>
+                <button id='twoColumns'>Two Columns</button>
+                <button id='threeColumns'>Three Columns</button>
+            </div>
+            <div class="responsive threeColumns">
+                <img src="images/cs50-certificate.webp" alt="Harvard CS50 course certificate" width="2532" height="1530" loading="lazy">
+                <img src="images/launching-leaders-certificate.webp" alt="Launching Leaders course certificate" width="841" height="595" loading="lazy">
+                <img src="images/upcoming-certificate.webp" alt="Upcoming certificate from BYU Idaho" width="2000" height="1414" loading="lazy">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy;<span id="currentyear">2024</span> - Pedro Martins Silva de Castro - Brazil</p>
+        <a href="https://www.linkedin.com/in/pedro-castro-dev/"><img src="images/bxl-linkedin-square.svg" alt="LinkedIn Icon" loading="lazy"></a>
+    </footer>
+</body>
+</html>

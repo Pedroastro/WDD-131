@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This page is part of the final project of course wdd131 at BYU Idaho. It is the home page of the final project plan, a portfolio for Pedro Castro.">
+        <meta name="author" content="Pedro Martins Silva de Castro">
+        <title>Pedro Castro's Portfolio | Pedro Castro | WDD 131</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/index-large.css">
+        <link rel="stylesheet" href="styles/header-body-footer.css">
+        <link rel="stylesheet" href="styles/header-body-footer-large.css">
+        <script src="scripts/footer.js" defer></script>
+    </head>
+<body>
+    <header>
+        <h1>Pedro Castro's Portfolio</h1>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="aboutMe">
+            <img src="images/profile.webp" alt="A picture of Pedro Castro" loading="lazy">
+            <div id="aboutMeText">
+                <h2>About Me</h2>
+                <p>I am a proactive and dedicated software developer who strives to develop high-quality applications. I love technology and 
+                    constantly seek to study more about the latest advancements available. I have completed many application projects using 
+                    Python, Flask, Django, HTML, CSS, JavaScript, SQL, Git, Selenium, and other technologies to improve productivity and 
+                    solve real-world problems.
+                </p>
+                <a href="contact.html" id="contactMeButtonLink">Contact Me</a>
+            </div>
+        </div>
+        <div class="experience">
+            <div id="experience1">
+                <h2>Aspen Field Services - Third-party inspection company</h2>
+                <p>Team Lead (February 2024 - Ongoing)</p>
+                <ul>
+                    <li>Achieved record-breaking $60,000 in monthly revenue by setting and adjusting weekly goals.</li>
+                    <li>Eliminated complaints from high-priority clients, including Volvo, by managing all job orders.</li>
+                    <li>Augmented productivity by 10% by developing Python and Selenium tools to automate the team's bulk job entry process.</li>
+                </ul>
+            </div>
+            <div id="experience2">
+                <h2>Best Use - Mass text messaging company in Brazil</h2>
+                <p>Technical Support Specialist (December 2023 - February 2024)</p>
+                <ul>
+                    <li>Reduced team's error verification time by 90% through automation, resulting in more efficiency.</li>
+                    <li>Guided clients in software comprehension with excellence while improving company relationships.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="certificates">
+            <div id="certificate1">
+                <img src="images/cs50-certificate.webp" alt="Harvard CS50 course certificate" width="2532" height="1530" loading="lazy">
+                <h2>Harvard CS50</h2>
+                <p>CS50, Harvard's introduction to computer science, teaches programming fundamentals and problem-solving to tackle real-world challenges. Starting with C, it transitions to Python, SQL, and web development tools like HTML, CSS, and JavaScript. Designed for all experience levels, the course emphasizes computational thinking and adaptability, culminating in a final project.</p>
+            </div>
+            <div id="certificate2">
+                <img src="images/upcoming-certificate.webp" alt="Upcoming certificate from BYU Idaho" width="2000" height="1414" loading="lazy">
+                <h2>Web and Computer Programming</h2>
+                <p>This certificate equips learners with the skills to write programs for meaningful applications across various domains, design visually appealing and effective websites, and develop dynamic, industry-standard webpages. Students also gain the ability to learn and apply emerging technologies and techniques, preparing them for future advancements in programming.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy;<span id="currentyear">2024</span> - Pedro Martins Silva de Castro - Brazil</p>
+        <a href="https://www.linkedin.com/in/pedro-castro-dev/"><img src="images/bxl-linkedin-square.svg" alt="LinkedIn Icon" loading="lazy"></a>
+    </footer>
+</body>
+</html>
